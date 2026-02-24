@@ -15,13 +15,13 @@ const Network = (() => {
     // ║  ★★★  ここを自分の Firebase 設定に変更してください  ★★★  ║
     // ╚══════════════════════════════════════════════════════════╝
     const FIREBASE_CONFIG = {
-        apiKey:            "YOUR_API_KEY",
-        authDomain:        "YOUR_PROJECT_ID.firebaseapp.com",
-        databaseURL:       "https://YOUR_PROJECT_ID-default-rtdb.asia-southeast1.firebasedatabase.app",
-        projectId:         "YOUR_PROJECT_ID",
-        storageBucket:     "YOUR_PROJECT_ID.appspot.com",
-        messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-        appId:             "YOUR_APP_ID",
+        apiKey: "AIzaSyBiQfSVWw_JdxHDklfggLpsC8fS1Upcfp4",
+        authDomain: "polynomial-game.firebaseapp.com",
+        databaseURL: "https://polynomial-game-default-rtdb.asia-southeast1.firebasedatabase.app",
+        projectId: "polynomial-game",
+        storageBucket: "polynomial-game.firebasestorage.app",
+        messagingSenderId: "875359750297",
+        appId: "1:875359750297:web:14436d8cfc2dff11ab5008"
     };
     // ─── 設定ここまで ─────────────────────────────────────────
 
