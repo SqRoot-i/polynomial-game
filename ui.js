@@ -1050,7 +1050,7 @@ function renderSelStatus() {
 
 function renderScoreboard() {
     const st    = Game.getState();
-    const myId  = Network.isOnline() ? (Network.getMyGameId() || 'human') : 'human';
+    const myId  = Network.isOnline() ? ((Network.getMyGameId?.() ?? null) || 'human') : 'human';
     els.scoreboard.innerHTML = st.players.map(p => `
       <div class="score-item ${p.id === myId ? 'me' : ''} ${st.penalized.has(p.id) ? 'penalized' : ''}">
         <div>
