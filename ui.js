@@ -1063,6 +1063,7 @@ function renderScoreboard() {
 }
 
 function renderConstraintBadge(playerId) {
+    if (typeof Game.getPlayerConstraint !== 'function') return '';
     const c = Game.getPlayerConstraint(playerId);
     if (!c) return '';
     return `<span class="player-constraint-tag">${CONSTRAINT_LABELS[c]||''}</span>`;
